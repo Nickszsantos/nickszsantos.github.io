@@ -36,7 +36,8 @@ site
 <body>
     <div>
         <h1>Obrigado pelo carinho pessoal!</h1>
-        <img src="vitopel.jpg" alt="Foto de despedida">
+        <img src="<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/85849722-57e7-4d53-be8a-fa667bd48150" />
+" alt="Foto de despedida">
     </div>
 </body>
 </html>
