@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mensagem Importante</title>
+    <style>
+        body {
+            background-image: url("yuri.png");
+            background-size: cover;
+            background-position: center;
+            background-color: rgb(212, 212, 212);
+
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #047717;
+            text-align: center;
+
+        }
+        p {
+            font-size: 30px;
+            color: #006e12;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #dd0000;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            align-items: center;
+        }
+
+        button:hover {
+            background-color: #ff1a1a;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>clica na porra no botão ai</h1>
+
+    <p>Mensagem carinhosa para você </p>
+
+    <button onclick="mostrarMensagem()">Clique aqui</button>
+
+    <h2 id="msg"></h2>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("msg").innerText = "Vai tomar no cu heloisa!!";
+        }
+    </script>
+
+</body>
+
+</html>
